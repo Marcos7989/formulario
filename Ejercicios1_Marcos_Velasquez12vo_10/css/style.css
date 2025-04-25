@@ -1,0 +1,52 @@
+div {
+    position:absolute;
+    border: 1px solid rgb(4, 255, 130); 
+}
+div.bloque1{
+    background-color: aqua;
+    width: 353px;
+    height: 113px;
+    top: 95px;
+    left: 56px;
+    z-index: 800;
+}
+div.bloque2{
+    background-color: rgb(5, 47, 238);
+    width: 297px;
+    height: 387px;
+    top: 40px;
+    left: 81px;
+    z-index: 40;
+}
+div.bloque3{
+    background-color: rgb(255, 2, 221);
+    width: 397px;
+    height: 116px;
+    top: 374px;
+    left: 20px;
+    z-index: 20;
+}
+div.bloque2 div.hijo1{
+    background-color: rgb(7, 7, 7);
+    width: 280px;
+    height: 110px;
+    top: 95px;
+    left: 10px;
+    z-index: 750;
+}
+div.bloque2 div.hijo2{
+    background-color: rgb(248, 4, 4);
+    width: 120px;
+    height: 260px;
+    top: 28px;
+    left: 110px;
+    z-index: 20;
+}
+div.bloque2 div.hijo3{
+    background-color: rgba(208, 255, 0, 0.473);
+    width: 176px;
+    height: 99px;
+    top: 278px;
+    left: 105px;
+    z-index: 10;
+}
